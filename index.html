@@ -13,7 +13,7 @@
       <th colspan="13">Donut Sales Projections</th>
     </tr>
     <tr>
-      <td>Location/Hour</td>
+      <th>Location/Hour</th>
       <td>7:00</td>
       <td>8:00</td>
       <td>9:00</td>
@@ -28,6 +28,20 @@
       <td>Total</td>
     </tr>
   </table>
+
+  <form id="shop-form">
+    <label for="storeName">Store Location: </label>
+    <input name="storeName" type="text"></br>
+    <label for="minCustomers">Min Customers per Hour: </label>
+    <input name="minCustomers" type="text"></br>
+    <label for="maxCustomers">Max Customers per Hour: </label>
+    <input name="maxCustomers" type="text"></br>
+    <label for="avgDonuts">Avg Donuts per Customer: </label>
+    <input name="avgDonuts" type="text"></br>
+
+    <button id="the-button" type="submit">Submit Store Info</button>
+  </form>
+
 
 <script src="js/donut_shop.js"></script>
 </body>
