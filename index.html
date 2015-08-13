@@ -4,14 +4,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Donut Shops</title>
+  <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<h1>Doughnut Shop Model</h1>
-    <p>This table shows a model of projected sales for each doughnut shop. </p>
-  <table id="idOne" border="solid">
+
+<h1><b>Doughnut Hourly Sales Projections</b></h1>
+    <p>. </p>
+  <table>
+    <thead>
     <tr>
-      <th colspan="13">Donut Sales Projections</th>
+      <th colspan="13"><b>Number of Doughnuts for Each Hour</b></th>
     </tr>
+  </thead>
+  <tbody id="idOne">
     <tr>
       <th>Location/Hour</th>
       <td>7:00</td>
@@ -28,7 +34,7 @@
       <td>Total</td>
     </tr>
   </table>
-
+</tbody>
   <form id="shop-form">
     <label for="storeName">Store Location: </label>
     <input name="storeName" type="text"></br>

@@ -1,0 +1,88 @@
+* {
+  font-family: 'Covered By Your Grace';
+}
+
+body {
+  background-image: url("../images/PinkDonuts.png");
+  background-position: left top;
+  /*background-size: contain;*/
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+h1 {
+  color: #FC9D9A;
+  font-size: 300%;
+  background-color: #C8C8A9;
+  border-radius: 10px;
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  width: 600px;
+  position: fixed;
+  right: 10px;
+  /*opacity: 0.9;*/}
+
+p {position: fixed;
+  right: 10px;
+  bottom: 10px;}
+
+table {
+  background-color: #83AF9B;
+  color: white;
+  /*border-color: #F9CDAD*/;
+  border: none;
+/*  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;*/
+  border-radius: 20px;
+  font-size: 130%;
+  position: fixed;
+  right: 10px;
+  bottom: 210px;
+  opacity: 0.7;}
+
+thead {border: none;}
+tr {border: none;}
+
+tbody {
+  text-align: left;
+  border: none;}
+
+td {
+  padding: 2px;
+  text-align: right;
+  border: none;}
+
+form{
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  background-color: #C8C8A9;
+  border-radius: 10px;
+  padding: 10px;
+  /*opacity: 0.8;*/}
+
+input {
+  background-color: #FC9D9A;
+  color: white;
+  font-size: 120%;
+  opacity: 0.5;
+  /*position: fixed;
+  right: 10px;*/}
+
+label {
+  color: #FE4365;
+  font-size: 150%;
+  display: inline-block;
+  width: 230px;
+/*  position: fixed;
+  right: 190px;*/}
+
+form button {
+  background-color: #83AF9B;
+  border-radius: 10px;
+  font-size: 108%;
+  color: #FE4365;
+  opacity: 1.0 !important;}
+
+
+
