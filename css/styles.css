@@ -31,10 +31,14 @@ body {
   z-index: 10;
   /*opacity: 0.9;*/}
 
+  img{position: absolute;
+      top: 240px;
+      left: 250px;}
+
 table {
 /*  position: absolute;
-  right: 10px;
-  top: 130px;*/
+  right: 20px;
+  top: 120px;*/
   margin-top: 120px;
   margin-right: 20px;
   float: right;
@@ -75,19 +79,18 @@ input {
   background-color: #FC9D9A;
   color: white;
   font-size: 120%;
-  opacity: 0.5;
-  /*position: fixed;
-  right: 10px;*/}
+  opacity: 0.5;}
 
 label {
   color: #FE4365;
   font-size: 150%;
   display: inline-block;
-  width: 230px;
-/*  position: fixed;
-  right: 190px;*/}
+  width: 230px;}
 
 form button {
+/*  position: absolute;
+  bottom: 25px;
+  right: 75px;*/
   background-color: #83AF9B;
   border-radius: 10px;
   font-size: 108%;
@@ -115,7 +118,7 @@ form button {
 }
 
 .lowertitles {
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   font-size: 150%;
   text-align: center;
   color: #83AF9B;
