@@ -1,43 +1,49 @@
 * {
-  font-family: 'Covered By Your Grace';
+  font-family: 'Covered By Your Grace', sans-serif;
 }
 
 body {
-  background-image: url("../images/PinkDonuts.png");
+  background-color: #FC9D9A;
+/*  background-image: url("../images/PinkDonuts.png");
   background-position: left top;
-  /*background-size: contain;*/
   background-repeat: no-repeat;
-  background-size: cover;}
+  background-size: cover;*/}
 
-h1 {
+.divWithBg {
+  background: url("../images/PinkDonuts.png");
+  background-size: 100%;
+  width: 900px;
+  height: 600px;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/}
+
+.heading {
+  position: fixed;
+  left: 258px;
+  margin-bottom: 5px;
+  width: 630px;
+  right: 10px;
   color: #FC9D9A;
   font-size: 300%;
   background-color: #C8C8A9;
   border-radius: 10px;
-  text-align: right;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  width: 600px;
-  position: fixed;
-  right: 10px;
+  text-align: center;
+  z-index: 10;
   /*opacity: 0.9;*/}
 
-p {position: fixed;
-  right: 10px;
-  bottom: 10px;}
-
 table {
+/*  position: absolute;
+  right: 10px;
+  top: 130px;*/
+  margin-top: 120px;
+  margin-right: 20px;
+  float: right;
   background-color: #83AF9B;
   color: white;
   /*border-color: #F9CDAD*/;
   border: none;
-/*  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;*/
   border-radius: 20px;
   font-size: 130%;
-  position: fixed;
-  right: 10px;
-  bottom: 210px;
   opacity: 0.7;}
 
 thead {border: none;}
@@ -53,9 +59,13 @@ td {
   border: none;}
 
 form{
-  position: fixed;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+ /* clear: right;*/
+/*  position: absolute;
   right: 10px;
-  bottom: 20px;
+  bottom: 20px;*/
   background-color: #C8C8A9;
   border-radius: 10px;
   padding: 10px;
@@ -83,6 +93,40 @@ form button {
   font-size: 108%;
   color: #FE4365;
   opacity: 1.0 !important;}
+
+#lowerdiv {
+  position: relative;
+  top: -20px;
+  background-color: #FE4365;
+  width: 900px;
+  height: 200px;
+  margin-top: 0px;
+}
+
+.basetextdiv {
+  float: left;
+  display: inline;
+  width: 30%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  height: 100%;
+  color: white;
+  font-size: 120%;
+}
+
+.lowertitles {
+  margin-top: 10px;
+  font-size: 150%;
+  text-align: center;
+  color: #83AF9B;
+}
+
+.basetextp {
+  margin-top: 10px;
+  font-size: 90%;
+  text-align: justify;
+  color: #C8C8A9;
+}
 
 
 

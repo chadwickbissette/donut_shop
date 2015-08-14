@@ -4,37 +4,38 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Donut Shops</title>
+  <!-- <link type="text/css" rel="stylesheet" href="css/reset.css" -->
   <link type="text/css" rel="stylesheet" href="css/styles.css"/>
   <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-<h1><b>Doughnut Hourly Sales Projections</b></h1>
-    <p>. </p>
+<div class="divWithBg">
+  <h1 class="heading"><b>Pretty Little Princess Doughnuts</b></h1>
   <table>
     <thead>
-    <tr>
-      <th colspan="13"><b>Number of Doughnuts for Each Hour</b></th>
-    </tr>
-  </thead>
-  <tbody id="idOne">
-    <tr>
-      <th>Location/Hour</th>
-      <td>7:00</td>
-      <td>8:00</td>
-      <td>9:00</td>
-      <td>10:00</td>
-      <td>11:00</td>
-      <td>12:00</td>
-      <td>1:00</td>
-      <td>2:00</td>
-      <td>3:00</td>
-      <td>4:00</td>
-      <td>5:00</td>
-      <td>Total</td>
-    </tr>
+      <tr>
+        <th colspan="13"><b>Number of Doughnuts for Each Hour</b></th>
+      </tr>
+    </thead>
+    <tbody id="idOne">
+      <tr>
+        <th>Location/Hour</th>
+        <td>7:00</td>
+        <td>8:00</td>
+        <td>9:00</td>
+        <td>10:00</td>
+        <td>11:00</td>
+        <td>12:00</td>
+        <td>1:00</td>
+        <td>2:00</td>
+        <td>3:00</td>
+        <td>4:00</td>
+        <td>5:00</td>
+        <td>Total</td>
+      </tr>
+    </tbody>
   </table>
-</tbody>
   <form id="shop-form">
     <label for="storeName">Store Location: </label>
     <input name="storeName" type="text"></br>
@@ -47,8 +48,21 @@
 
     <button id="the-button" type="submit">Submit Store Info</button>
   </form>
-
-
+</div>
+  <div id="lowerdiv">
+    <div class="basetextdiv">
+      <h1 class="lowertitles">Cupcake Lorem Ipsum</h1>
+      <p class="basetextp"> Cupcake ipsum dolor. Sit amet macaroon chocolate bar dragée dessert candy canes danish. Gingerbread danish chupa chups toffee pudding biscuit. </p>
+    </div>
+    <div class="basetextdiv">
+       <h1 class="lowertitles">Cupcake Lorem Ipsum</h1>
+      <p class="basetextp"> Cupcake ipsum dolor. Sit amet macaroon chocolate bar dragée dessert candy canes danish. Gingerbread danish chupa chups toffee pudding biscuit.</p>
+    </div>
+    <div class="basetextdiv">
+       <h1 class="lowertitles">Cupcake Lorem Ipsum</h1>
+      <p class="basetextp"> Cupcake ipsum dolor. Sit amet macaroon chocolate bar dragée dessert candy canes danish. Gingerbread danish chupa chups toffee pudding biscuit.</p>
+    <div>
+  </div>
 <script src="js/donut_shop.js"></script>
 </body>
 </html>
