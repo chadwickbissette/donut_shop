@@ -18,8 +18,9 @@ body {
   /*background-size: cover;*/}
 
 .heading {
-  position: fixed;
-  left: 258px;
+  position: relative;
+  top: 30px;
+  left: 255px;
   margin-bottom: 5px;
   width: 630px;
   right: 10px;
@@ -29,22 +30,54 @@ body {
   border-radius: 10px;
   text-align: center;
   z-index: 10;
-  /*opacity: 0.9;*/}
+  opacity: 0.9;}
 
-  img{position: absolute;
-      top: 240px;
-      left: 250px;}
+#fairy {
+  position: fixed;
+  /*top: 100px;*/
+  width: 80px;
+  height: auto;
+  opacity: 0.7;
+}
+
+img#firstEgg {position: absolute;
+  top: 70px;
+  left: 240px;
+  transition: top 2s cubic-bezier(0.755, 0.05, 0.855, 0.06);}
+
+img#firstEgg.animated {
+  top: 300px;}
+
+img#secondEgg {position: absolute;
+  top: 65px;
+  left: 130px;
+  transition: top 2s cubic-bezier(0.755, 0.05, 0.855, 0.06);}
+
+img#secondEgg.animated {
+  top: 470px;}
+
+img#thirdEgg {position: absolute;
+  top: 70px;
+  left: 170px;
+  transition: top 2s cubic-bezier(0.755, 0.05, 0.855, 0.06);}
+
+img#thirdEgg.animated {
+  top: 300px;}
+
+img#fourthEgg {position: absolute;
+  top: 70px;
+  left: 150px;
+  transition: top 2s cubic-bezier(0.755, 0.05, 0.855, 0.06);}
+
+img#fourthEgg.animated {
+  top: 320px;}
 
 table {
-/*  position: absolute;
-  right: 20px;
-  top: 120px;*/
-  margin-top: 120px;
+  margin-top: 50px;
   margin-right: 20px;
   float: right;
   background-color: #83AF9B;
   color: white;
-  /*border-color: #F9CDAD*/;
   border: none;
   border-radius: 20px;
   font-size: 130%;
@@ -73,7 +106,7 @@ form{
   background-color: #C8C8A9;
   border-radius: 10px;
   padding: 10px;
-  /*opacity: 0.8;*/}
+  opacity: 0.7;}
 
 input {
   background-color: #FC9D9A;
@@ -96,6 +129,8 @@ form button {
   font-size: 108%;
   color: #FE4365;
   opacity: 1.0 !important;}
+
+
 
 #lowerdiv {
   position: relative;

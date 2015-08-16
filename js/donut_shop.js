@@ -95,31 +95,23 @@ var handleShopFormSubmit = function(){
 
 theForm.addEventListener('submit', handleShopFormSubmit);
 
+//Animate the sprinkle
+// $(".sprinkle").bind("webkitAnimationEnd mozAnimationEnd animationEnd", function(){
+//   $(this).removeClass("animated")})
 
+// $(".sprinkle").hover(function(){$(this).addClass("animated")})
 
-    // replacementRow.innerHTML = storeName;
-    // var cellNode = document.createElement('td');
-    // var cellText = document.createTextNode(this.salesArray[i]);
-    // cellNode.appendChild(cellText);
-    // replacementRow.appendChild(cellNode);
+var firstEgg = document.getElementById('firstEgg');
+firstEgg.addEventListener('mouseover', function(){firstEgg.className = "sprinkle animated"});
 
+var secondEgg = document.getElementById('secondEgg');
+secondEgg.addEventListener('mouseover', function(){secondEgg.className = "sprinkle animated"});
 
+var thirdEgg = document.getElementById('thirdEgg');
+thirdEgg.addEventListener('mouseover', function(){thirdEgg.className = "sprinkle animated"});
 
-  //Replace existing row using getElementById, innerHTML, recall the render function
+var fourthEgg = document.getElementById('fourthEgg');
+fourthEgg.addEventListener('mouseover', function(){fourthEgg.className = "sprinkle animated"});
 
-  // rowTitle = document.createElement('td');
-  // rowTitleText = document.createTextNode(this.storeLocation);
-  // rowTitle.appendChild(rowTitleText);
-  // rowNode.appendChild(rowTitle);
-
-// console.dir(shopDowntown);
-// console.log(shopDowntown.salesArray);
-// console.log(shopDowntown.totalSales);
-
-// console.dir(newShop);
-// console.log(newShop.salesArray);
-// console.log(newShop.totalSales);
-
-  // var checkExistingStoresOutput = checkExistingStores(storeName);
-  // console.log(checkExistingStoresOutput);
-  // console.log(storeName);
+var fairy = document.getElementById('fairy');
+fairy.addEventListener('mousedown', function(){firstEgg.className = "sprinkle"; secondEgg.className = "sprinkle"; thirdEgg.className = "sprinkle"; fourthEgg.className = "sprinkle"});
